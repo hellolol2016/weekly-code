@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Rock Paper Scissors</h1>
+
+        <button class="rock"><img style="height:100px" src=media/rock.png></button>
+        <button class="paper"><img src=media/paper.jpg style="height:100px"></button>
+        <button class="scissors"><img src=media/scissors.png style="height:100px"></button>
+
+        <h3>Score</h3>
+        <p class="pp">Player:</p>
+        <p class="cp">Computer:</p>
+        <h3>Result</h3>
+        <p class="msg"></p>
+        <h2 class="winner"></h2>
+        <button class="restart">Restart Game!</button>
+        <script src="scripts.js">
+        </script>
+        <!-- <script>
+            const buttons = document.querySelectorAll('button');
+            buttons.forEach((button)=>{
+                button.addEventListener('click',()=>{
+                    console.log(button.className)
+                });
+            });
+        </script> -->
+    </body>
+</html>
