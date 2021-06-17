@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <title>AlphaChat</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="icon" href="media/alphahacks2.png">
+    </head>
+    <body>
+        <header>
+            <h1 id="heading">AlphaChat</h1><img id="logo" src="media/alphahacks.png" alt="AlphaHacks">
+        </header>
+        <div class="inputGroup">
+            <input id="name" class="name" type="text" autocomplete="off" placeholder="Username"></input>
+
+        </div>
+
+        <div id="messages">
+        </div>
+        
+        <div class="inputGroup">
+            <input id="message" class="textbox" type="text" placeholder="Message" autocomplete="off"></input>
+            <button id="send" class="hvr-glow button">Send</button>
+        </div>
+
+        <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-database.js"></script>
+        <script src="scripts.js"></script>
+    </body>
+</html>
