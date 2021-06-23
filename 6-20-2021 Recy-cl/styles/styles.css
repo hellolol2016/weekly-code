@@ -1,0 +1,198 @@
+/* -------------------------------HEADER------------------------- */
+
+#logo { 
+    display:inline-block; 
+    height:100px;
+} 
+
+h1 {
+    font-family:'Questrial', sans-serif;
+    font-weight: 1000;
+    font-size: 40px;
+}
+
+#heading {
+    display:inline-block;
+    margin-right:10px;
+}
+
+
+header{
+    display:flex;
+    margin-left: 25px;
+    font-family:'Questrial', sans-serif;
+}
+
+
+
+/*-------------------------------------INPUT FIELDS-------------*/
+.sign-up{
+    position: absolute; 
+    left: 25%;  
+    width: 50%; 
+    height: 750px; 
+    background: rgb(240, 240, 240); 
+    border: 4px solid rgb(220, 220, 220);
+    border-radius: 5px;
+}
+
+
+.textbox {
+    display: block;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+    position: relative;
+    width: 30%;
+    height: 20%;
+    left: 40%;
+  }
+
+.redirect{
+    position: relative;
+    width: 50%;
+    height: 20%;
+    left: 35%;
+}
+  
+
+
+
+
+
+
+  /* -------------------------BACKGROUND-------------------- */
+  body{
+    background-color: rgb(223, 255, 223);
+    font-family: questrial;
+  }
+/* ------------------------BODY------------------------- */
+h1 {
+    font-family:'Questrial', sans-serif;
+    font-weight: 1000;
+    font-size: 40px;
+}
+
+h2{
+    font-family:'Questrial', sans-serif;
+    font-size: 80px;
+    position:relative;
+    width:50%;
+    left:25%;
+    right:25%;
+}
+
+h3{
+    font-size: 40px;
+    position: relative;
+    width:50%;
+    left:35%;
+    margin-top:1px;
+}
+
+h4{
+    font-size: 120px;
+    position: relative;
+    width:50%;
+    left:35%;
+    margin-top:1px;
+    color: green;
+}
+
+h5{
+    font-size: 40px;
+    position: relative;
+    width: 50%;
+    left: 25%;
+    margin-top:1px;
+}
+
+body{
+    font-family:'Questrial', sans-serif;
+    background-color: rgb(223, 255, 223)
+}
+
+
+/* -------------------------HEADING--------------------- */
+#logo { 
+    display:inline-block; 
+    height:100px;
+} 
+
+#heading {
+    display:inline-block;
+    margin-right:10px;
+}
+
+
+header{
+    display:flex;
+    margin-left: 25px;
+    font-family:'Questrial', sans-serif;
+}
+
+
+/* -----------------------------BUTTONS---------------------------- */
+
+#signin{
+    position: relative;
+    left: 15%;
+    height: 50px;
+    width: 100px;
+    left: 65%;
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family:'questrial', sans-serif;
+}
+
+
+
+.button{
+    position: relative;
+    left:37%;
+    margin-top:1px;
+}
+.button{
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.1em 0.1em 0;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    font-size: 45px;
+    color:rgb(0, 0, 0);
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.2s;
+}
+    .button:hover{
+        border-color: rgb(160, 215, 245);
+    }
+    @media all and (max-width:30em){
+     .button{
+        display:block;
+        margin:0.2em auto;
+    }
+}
+
+
+.hvr-glow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+  box-shadow: 0 0 8px green;
+}

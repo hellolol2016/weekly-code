@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-analytics.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="../styles/map.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/styles.css" />
+    <link rel="icon" href="../media/recy.circle.png" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><img id = "logo" src="../media/recy.cl.png"></a>
+    </header>
+
+
+    <div class="inputGroup">
+      <input id="name" class="textbox" type="text" placeholder="Your Name" autocomplete="off"></input>
+      <input id="items" class="textbox" type="text" placeholder="Items To Recycle " autocomplete="off"></input>
+      <button id="submit" class="button hvr-glow">Submit</button>
+    </div>
+    <div id="map"></div>
+
+    <div id="item-list">
+
+    </div>
+    <button id="done" class="button hvr-glow">Done!</button>
+    <p class="note">As our database is manually created, you may not find a recycling 
+      service near your location as of right now, we're sorry for the inconvenience</p>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7SK2BBMhJ9SUnxYZQW4Bd_gpc-4XCum0&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+    <script src="../scripts/map.js"></script>
+  </body>
+</html>
